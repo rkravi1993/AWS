@@ -5,10 +5,10 @@ phases:
 		commands:
 			- echo Entered the build phase..
 			- mvn clean package
-	post-build: 
+	post_build: 
 		commands: 
 			- echo Build complete success
 artifacts:
 	files:
-		-target/java-aws-exmple.jar
+		- target/java-aws-exmple.jar
 	discard-paths: yes
