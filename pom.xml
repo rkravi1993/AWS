@@ -64,6 +64,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>java-aws-exmple</finalName>
 	</build>
 
 </project>
